@@ -1,0 +1,31 @@
+_id: req_7558d88a402a4967adac493027807fef
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695513103532
+created: 1695512917238
+url: http://localhost:5113/login
+name: Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "password":"Pass!1",
+        "email":"bogus@bogus.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695512917238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

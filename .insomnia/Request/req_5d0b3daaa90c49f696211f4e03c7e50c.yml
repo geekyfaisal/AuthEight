@@ -1,0 +1,32 @@
+_id: req_5d0b3daaa90c49f696211f4e03c7e50c
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695513055855
+created: 1695513012181
+url: http://localhost:5113/login
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username":"faisal",  
+    	"password":"Pass!1",
+        "email":"bogus@bogus.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695512917188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

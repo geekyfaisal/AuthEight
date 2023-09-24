@@ -1,0 +1,33 @@
+_id: req_3a363706cd7048e98dd5489b4cce5afc
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695513190439
+created: 1695513120143
+url: http://localhost:5113
+name: Login
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "password":"Pass!1XX",
+        "email":"bogus@bogus.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: CfDJ8KWvu1dV8z1ImpKFsBz3QMSFruX5Hbs3Rz5S0SpnscF6jDTIfDQ1Lf-2SrpVAlRA-uAcqtsfrOYtqYXXyt2clpTEuxELtKu-X1XddgqwDC4gU2K4kzfohJ2fBp2cPZiQC8d81sQ-Bx8TdJkeUV4gFhlYIBe-O5tAxMZe5isaAcwwRVQxrzrXJxJEm2u3pyeQrQcZI7QucLmFMTtwYqq7-WUwi-JTyzexJsGrxD6utJ_ePqmjGQvj2OrG9UbRleoVs5BxZzKxKRnIv-KEX71jP-emY9XJXrFyGhygNCb7rBtDWP4VmZCF5bg5VLJVb9b4xX2Qj5t81s7q5KEqUYeYwu0wY4Kj2MTRrteIlhKzYDR5pYTkAuYhcLUJlKrB4ctP1qJkiJ9-Y5fmnIIlI1s_21c9dDq-LT-ZoE5OJRE91WWl8l24APFUkn94jnp4RkeR-GFeSvOCk4GFnsVUex-gnzXuQ7SPoeWjonFr7kdhYqPQbNhhHQjt_egutbG_9LgOwxICZu3OzgQiomvfN4_rmTTlXJsN4rkNl-ZNaXkU2zWc3UX12jAJFrmTLIt_zMc8QYMrbdWSbYtqItJW4lBouAKMEFHT2gtVxzL6Qd0WSGUPxyqjOB6El4D9uELEM1S1c4sd5yMWhbjnepFZV0zqaJT8P2fqd0ywQag4-aNFVJKAxz_dmML3v7Z49jK6GFwsCA
+metaSortKey: -1695512917213
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
