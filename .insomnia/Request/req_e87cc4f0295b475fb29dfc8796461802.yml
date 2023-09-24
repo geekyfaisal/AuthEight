@@ -1,0 +1,38 @@
+_id: req_e87cc4f0295b475fb29dfc8796461802
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514567597
+created: 1695514567597
+url: "{{ _.base_url }}/login"
+name: /login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "string",
+      "password": "string",
+      "twoFactorCode": "string",
+      "twoFactorRecoveryCode": "string"
+    }
+parameters:
+  - name: useCookies
+    disabled: true
+    value: "true"
+  - name: useSessionCookies
+    disabled: true
+    value: "true"
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1695514567597
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

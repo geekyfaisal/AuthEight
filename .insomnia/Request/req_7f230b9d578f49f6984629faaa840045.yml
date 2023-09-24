@@ -1,0 +1,29 @@
+_id: req_7f230b9d578f49f6984629faaa840045
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514567598
+created: 1695514567598
+url: "{{ _.base_url }}/refresh"
+name: /refresh
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "refreshToken": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1695514567598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_90b0b8b0ca1f4d339b6deb0d82238403
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514567600
+created: 1695514567600
+url: "{{ _.base_url }}/resetPassword"
+name: /resetPassword
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "string",
+      "resetCode": "string",
+      "newPassword": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1695514567600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

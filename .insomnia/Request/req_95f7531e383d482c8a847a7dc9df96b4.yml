@@ -1,0 +1,30 @@
+_id: req_95f7531e383d482c8a847a7dc9df96b4
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514567599
+created: 1695514567599
+url: "{{ _.base_url }}/confirmEmail"
+name: /confirmEmail
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: userId
+    disabled: true
+    value: string
+  - name: code
+    disabled: true
+    value: string
+  - name: changedEmail
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1695514567599
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

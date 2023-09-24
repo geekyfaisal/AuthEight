@@ -1,0 +1,33 @@
+_id: req_618b58014293492a9971332f5ffc796a
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514567601
+created: 1695514567601
+url: "{{ _.base_url }}/manage/2fa"
+name: /manage/2fa
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "enable": true,
+      "twoFactorCode": "string",
+      "resetSharedKey": true,
+      "resetRecoveryCodes": true,
+      "forgetMachine": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1695514567601
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

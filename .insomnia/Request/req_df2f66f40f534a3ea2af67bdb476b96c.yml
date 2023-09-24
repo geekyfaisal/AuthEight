@@ -1,0 +1,30 @@
+_id: req_df2f66f40f534a3ea2af67bdb476b96c
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514683461
+created: 1695514567597
+url: http://localhost:5113/register
+name: /register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "string",
+      "password": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1695514567597
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_46d05d7f275b4b9f8392d0af7eb8c5b2
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514567602
+created: 1695514567602
+url: "{{ _.base_url }}/manage/info"
+name: /manage/info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695514567602
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

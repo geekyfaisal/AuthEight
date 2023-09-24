@@ -1,0 +1,31 @@
+_id: req_cdf67990d5614b349570dfaaf40bd69a
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514724420
+created: 1695514567602
+url: "{{ _.base_url }}/manage/info"
+name: /manage/info
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "newEmail": "string",
+      "newPassword": "string",
+      "oldPassword": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1695514567602
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

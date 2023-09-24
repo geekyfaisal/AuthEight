@@ -1,0 +1,29 @@
+_id: req_71ea73baec7b4ffeb8cbcfd2701590a5
+type: Request
+parentId: wrk_45d36acf845444ca9a659213a33a4413
+modified: 1695514567599
+created: 1695514567599
+url: "{{ _.base_url }}/resendConfirmationEmail"
+name: /resendConfirmationEmail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1695514567599
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
