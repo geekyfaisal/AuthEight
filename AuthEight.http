@@ -1,0 +1,6 @@
+@AuthEight_HostAddress = http://localhost:5113
+
+GET {{AuthEight_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
